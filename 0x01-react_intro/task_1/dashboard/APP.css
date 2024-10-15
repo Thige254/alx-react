@@ -1,0 +1,47 @@
+/* Overall styles for the entire application */
+.App {
+  text-align: center; /* Center align content within App component */
+}
+
+/* Header section containing the logo and title */
+.App-header {
+  background-color: #282c34; /* Dark background color */
+  padding: 20px; /* Padding around the header */
+  color: white; /* Text color */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+}
+
+/* Styling for the Holberton logo within the header */
+.App-header img {
+  height: 40px; /* Adjust the height of the logo */
+  margin-right: 10px; /* Margin to separate logo from text */
+}
+
+/* Styling for the title "School dashboard" in the header */
+.App-header h1 {
+  color: red; /* Red color for the title */
+  margin: 0; /* Remove margin to ensure clean alignment */
+}
+
+/* Body section with content and red line */
+.App-body {
+  border-top: 2px solid red; /* Red line across the top */
+  padding: 20px; /* Padding around the body content */
+}
+
+/* Styling for paragraphs within the body */
+.App-body p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+/* Footer section with copyright text */
+.App-footer {
+  background-color: #282c34; /* Dark background color */
+  padding: 10px; /* Padding around the footer */
+  color: white; /* Text color */
+  position: fixed; /* Fixed position at the bottom */
+  bottom: 0; /* Align to the bottom of the viewport */
+  width: 100%; /* Full width */
+  text-align: center; /* Center align text within the footer */
+}
